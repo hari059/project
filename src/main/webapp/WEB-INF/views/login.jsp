@@ -71,10 +71,10 @@
 <div class="container">
 	
     <form method="POST" action="${contextPath}/login" class="form-signin">
-        <h2 class="form-heading" align="center"> ANUSHA BATCH </h2>
+        <h2 class="form-heading" align="center"> ANUSHA  </h2>
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
-            <input name="NANI" type="text" class="form-control" placeholder="NANI"
+            <input name="username" type="text" class="form-control" placeholder="username"
                    autofocus="true"/>
             <input name="password" type="password" class="form-control" placeholder="Password"/>
             <span>${error}</span>
